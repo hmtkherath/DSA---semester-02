@@ -27,8 +27,8 @@ struct HashTable{
         int sum = 0;
         int hash = 0;
 	    //add your code below
-        for (int i=0 ; i < user_name.size() ; i++){   //Iterate over every character in the user_name string
-            sum += int (user_name[i]);  //convert the character to an ASCII value 
+        for (int i=0 ; i < user_name.size() ; i++){   //Iterating over every character in the user_name string
+            sum += int (user_name[i]);  //converting the character to an ASCII value 
         }
 	
 	
